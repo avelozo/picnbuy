@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.controllers.home', []).controller('HomeController', function ($scope, WorkshopService) {
+angular.module('app.controllers.home', ['ionic-material']).controller('HomeController', function ($scope, WorkshopService) {
 
  $scope.workshops = [];
   
