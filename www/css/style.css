@@ -41,7 +41,8 @@ article >  ul {
     position:absolute;
     bottom:0;
     left:0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.7);
+    
 }
 
 .workshopName{
@@ -75,7 +76,13 @@ article >  ul {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.espacoMargin{
-    margin-bottom: 20px;
+.textoImg{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: -120px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 23px;
+    width: 380px;
 }
-
