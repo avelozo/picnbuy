@@ -6,7 +6,7 @@ body { padding:0; margin:0; background:#fff; }
 	line-height:normal;
 	text-decoration:none;
 	font-size:15px;
-	color:#fff;
+	color:#000;
 	margin:0;
 	padding:0;
 	list-style:none;
@@ -73,4 +73,8 @@ article >  ul {
     right:0;
     margin: 5px;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.espacoMargin{
+    margin-bottom: 20px;
 }
