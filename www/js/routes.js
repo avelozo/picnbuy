@@ -7,7 +7,7 @@ angular.module('app.routes', []).config(function ($stateProvider, $urlRouterProv
     templateUrl: 'views/home.html',
     controller: 'HomeController'
   })
-  
+
   .state('detalheProduto', {
     url: '/detalheProduto',
     templateUrl: 'views/detalheProduto.html',
@@ -19,6 +19,11 @@ angular.module('app.routes', []).config(function ($stateProvider, $urlRouterProv
     templateUrl: 'views/listaProdutos.html',
     controller: 'ListaProdutosController'
   })
+
+  .state('barCode', {
+      url: '/barCode',
+      controller: 'barCode'
+    })
   ;
 
   $urlRouterProvider.otherwise('/home');
