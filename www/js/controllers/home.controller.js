@@ -10,7 +10,6 @@ angular.module('app.controllers.home', ['ionic-material']).controller('HomeContr
 
 
  $scope.irParaListaProdutos = function(){
-
      $state.go('listaProdutos');
  }
 
