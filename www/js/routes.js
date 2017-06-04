@@ -13,6 +13,12 @@ angular.module('app.routes', []).config(function ($stateProvider, $urlRouterProv
     templateUrl: 'views/detalheProduto.html',
     controller: 'DetalheProdutoController'
   })
+
+    .state('listaProdutos', {
+    url: '/listaProdutos',
+    templateUrl: 'views/listaProdutos.html',
+    controller: 'ListaProdutosController'
+  })
   ;
 
   $urlRouterProvider.otherwise('/home');

@@ -9,9 +9,9 @@ angular.module('app.controllers.home', ['ionic-material']).controller('HomeContr
  });
 
 
- $scope.irParaDetalheProduto = function(){
+ $scope.irParaListaProdutos = function(){
 
-     $state.go('detalheProduto');
+     $state.go('listaProdutos');
  }
 
 });
