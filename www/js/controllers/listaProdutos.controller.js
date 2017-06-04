@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app.controllers.listaProdutos', ['ionic-material']).controller('ListaProdutosController', 
+angular.module('app.controllers.listaProdutos', ['ionic-material']).controller('ListaProdutosController',
 function ($scope, WorkshopService,$state) {
 
 
@@ -8,5 +8,10 @@ function ($scope, WorkshopService,$state) {
 
      $state.go('detalheProduto');
  }
- 
+
+ $scope.chamaBarCode = function(){
+
+      $state.go('barCode');
+  }
+
 });
