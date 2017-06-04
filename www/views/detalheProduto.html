@@ -1,42 +1,42 @@
-<ion-view view-title="Profile" scroll="true">
-   <ion-content scroll="true">
-        <div class="hero has-mask" style="background-image: url('img/hondavermelho.jpg');background-size:100%;background-repeat:no-repeat;">
-        </div>
-       <div class="mid-bar z1 padding" style="background-color:#0D47A1">
-            <h3>HB20</h3>
-            <p>R$30.299,00</p>
-        </div>
-
-        <div class="content double-padding">
-            <h4 class="positive">Descrição</h4>
-            <p class="text-muted" style="color:#666">
-               Este carro é lindo demais da conta!!! </br>
-               É tão lindo que fico emocionada! </br>
-               Nunca vi tanta beleza na minha vida MEU DEUS
-            </p>
-              <h4 class="positive">Simulação</h4>
-
-              <div class="list card">
+<ion-view>
+    <ion-content scroll="true">
+        <div class="list card">
             <div class="item item-image">    
              <div class="list">
-                <a class="item item-thumbnail-left" style="height:100px;">
+                <a class="item item-thumbnail-left" style="height:100px;" ng-click="exibirConfirmacaoCompra()">
                     <img src="img/piggy.png">
                     <h2>Banco Piggy</h2>
-                    <p  style="white-space:initial">A melhor taxa! Seu carro por apenas 54 x R$599 </p>
+                    <p  style="white-space:initial">A melhor taxa! Seu carro por apenas <span style="font-size:16px;color:#1565C0">54</span> x <span style="font-size:20px;font-weight: 700;color:#1565C0">R$599</span> </p>
                 </a>
-                 <a class="item item-thumbnail-left"   style="height:100px;">
+                 <a class="item item-thumbnail-left"   style="height:100px;" ng-click="exibirConfirmacaoCompra()">
                     <img src="img/icon_bank2.png">
                    <h2>Banco Unity</h2>
-                    <p style="white-space:initial">Melhor forma de pagamento! Seu carro por apenas 72 x R$399 </p>
+                    <p style="white-space:initial">Melhor forma de pagamento! Seu carro por apenas <span style="font-size:16px;color:#1565C0">72</span> x <span style="font-size:20px;font-weight: 700;color:#1565C0">R$399</span> </p>
                 </a>
-                <a class="item item-thumbnail-left"  style="height:100px;">
+                <a class="item item-thumbnail-left"  style="height:100px;" ng-click="exibirConfirmacaoCompra()">
                     <img src="img/icon_bank.png">
                     <h2>Banco Philadelphia</h2>
-                    <p style="white-space:initial">Facilidade de pagamento! Pague somente em dezembro!</p>
+                    <p style="white-space:initial">Facilidade de pagamento! Pague somente em dezembro! Conquiste seu sonho por apenas <span style="font-size:16px;color:#1565C0">48</span> x <span style="font-size:20px;font-weight: 700;color:#1565C0">R$799</span> </p>
                 </a>
-               
             </div>
+            <div class="item item-text-wrap material-text-zone">
+                O Novo HB20 acompanhanda o novo visual da marca com destaque para a grade hexagonal com aletas cromadas que traz muito requinte e uma identidade
+            
             </div>
+            <div class="item tabs tabs-secondary tabs-icon-left white-tabs">
+            <a class="tab-item white-tab-text" href="#">
+                <i class="icon ion-thumbsup"></i>
+                Like
+            </a>
+            <a class="tab-item white-tab-text" href="#">
+                <i class="icon ion-chatbox"></i>
+                Comment
+            </a>
+            <a class="tab-item white-tab-text" href="#">
+                <i class="icon ion-share"></i>
+                Share
+            </a>
             </div>
+        </div>
     </ion-content>
 </ion-view>
