@@ -1,11 +1,11 @@
 'use strict';
 
-angular.module('app.controllers.detalheProduto', ['ionic-material']).controller('DetalheProdutoController', function ($scope, WorkshopService) {
+angular.module('app.controllers.detalheProduto', ['ionic-material']).controller('DetalheProdutoController', function ($scope,$state, WorkshopService) {
 
 $scope.showAlert = false;
 
 $scope.exibirConfirmacaoCompra = function(){
-    $scope.showAlert = true;
+    $state.go('confirmacaoProduto');
 }
 
  

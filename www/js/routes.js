@@ -19,6 +19,12 @@ angular.module('app.routes', []).config(function ($stateProvider, $urlRouterProv
     templateUrl: 'views/listaProdutos.html',
     controller: 'ListaProdutosController'
   })
+
+    .state('confirmacaoProduto', {
+    url: '/confirmacaoProduto',
+    templateUrl: 'views/confirmacaoProduto.html',
+    controller: 'ConfirmacaoProdutoController'
+  })
   ;
 
   $urlRouterProvider.otherwise('/home');
