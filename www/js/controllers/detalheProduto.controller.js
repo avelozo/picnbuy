@@ -5,9 +5,7 @@ angular.module('app.controllers.detalheProduto', ['ionic-material']).controller(
 $scope.showAlert = false;
 
 $scope.exibirConfirmacaoCompra = function(){
-
     $scope.showAlert = true;
-
 }
 
  

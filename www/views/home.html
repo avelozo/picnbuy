@@ -1,34 +1,31 @@
-<icon-view>
+<ion-view>
 
     <ion-content scroll="true">
+
         <div class="list card">
-            <div class="item item-image" ng-click="irParaListaProdutos()">    
-                <div class="text-on-image card-title-shadow">
-                 <img src="img/carro capa.jpeg">
-                </div>
-
+            <div class="item item-image" ng-style="{'background-image':'url({{workshop.imgUrl}})'}" ng-click="irParaListaProdutos()"
+                style="border-radius: 4px;">    
+                 <img src="img/carro_escuro.jpg"> 
+                 <div class="textoImg"> Encontre seu carro </br> <span style="font-size:14px; color:white">248 veículos listados </span></div>
+            </div>
+            
             </div>
 
-            </div>
-
-            <div class="list card">
-            <div class="item item-image" ng-click="irParaListaProdutos()">    
-            <img src="/../img/casa capa.jpg">
-            <div class="text-on-image card-title-shadow">
-            </div>
-            </div>
-
-            </div>
-
-            <div class="list card">
-            <div class="item item-image">    
-            <img src="img/viagem 2.jpeg">
-            <div class="text-on-image card-title-shadow">
+        <div class="list card">
+            <div class="item item-image" ng-style="{'background-image':'url({{workshop.imgUrl}})'}"
+                style="border-radius: 4px;">    
+                 <img src="img/casa_escura.jpg"> 
+                 <div class="textoImg"> Encontre seu imóvel </br> <span style="font-size:14px; color:white">8 imóveis listados </span></div>
             </div>
             </div>
 
+        <div class="list card">
+            <div class="item item-image" ng-style="{'background-image':'url({{workshop.imgUrl}})'}"
+                style="border-radius: 4px;">    
+                 <img src="img/viagem_escuro.jpg"> 
+                 <div class="textoImg"> Encontre seu intercâmbio </br> <span style="font-size:14px; color:white">12 viagens listados </span></div>
             </div>
-
-
+            
+            </div>
     </ion-content>
 </ion-view>
